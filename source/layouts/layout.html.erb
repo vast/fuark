@@ -6,6 +6,9 @@
     <title><%= current_page.data.title || "Fuark — Middleman template" %></title>
     <%= stylesheet_link_tag "application" %>
     <%= favicon_tag "favicon.ico" %>
+    <!--[if lt IE 9]>
+      <%= javascript_include_tag "http://html5shim.googlecode.com/svn/trunk/html5.js" %>
+    <![endif]-->
   </head>
   <body class="<%= page_classes %>">
     <article class="page">
