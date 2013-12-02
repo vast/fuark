@@ -1,7 +1,7 @@
 body {
   color: $text-color;
   background: $bg-color;
-  font: 1em/1.5 $serif;
+  font: 18px/1.5 $serif;
   -webkit-text-size-adjust: none;
 }
 
@@ -43,7 +43,7 @@ p, pre {
 pre, code {
   color: $code-color;
   font-family: $monospaced;
-  font-size: 87.5%;
+  font-size: 88.8%;
 }
 
 pre code {font-size: 1em}
