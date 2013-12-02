@@ -2,6 +2,7 @@ body {
   font: 1em/1.5 $serif;
   color: $text-color;
   background: $bg-color;
+  -webkit-text-size-adjust: none;
 }
 
 a {
