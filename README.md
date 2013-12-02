@@ -25,7 +25,6 @@ Responsive, fast in production, made for humans, and doesn't cause insomnia.
 5. Use space between property and value: `width: 20px`.
 6. Leave a blank line between rule sets.
 7. Sort CSS properties into a logical, consistent order:
-
     1. Positioning (`position`, `z-index`, `top`, `left`, ...)
     2. Block (`display`, `float`, `box-sizing`, `clear`, `overflow`, `visibility`, ...)
     3. Dimensions (`margin`, `padding`, `width`, `height`)
