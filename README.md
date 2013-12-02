@@ -1,7 +1,11 @@
-# FUARK
+# FUARK — Jack's smirking template
 
-[Middleman](http://middlemanapp.com/) template with CoffeeScript, SCSS, Autoprefixer,
-and other goodies.
+This is not special [Middleman](http://middlemanapp.com/) template.
+It's not beautiful or unique snowflake.
+It's the same decaying digital matter as everything else
+but with CoffeeScript, SCSS, Autoprefixer, and reasonable project structure.
+
+Responsive, fast in production, made for humans, and doesn't cause insomnia.
 
 ## Installation & Usage
 
@@ -31,6 +35,7 @@ and other goodies.
     7. Visual (`opacity`, `filter`, `transition`, `transform`, ...)
     8. Other (`page-break-*`, `break-*`, `zoom`, `direction`, ...)
 
+
 ## Modules, partials, and vendor
 
 The _modules_ directory is reserved for SCSS code that doesn't cause SASS to actually output CSS.
@@ -41,3 +46,4 @@ as you like: header/footer/... or typography/buttons/forms/...
 
 The _vendor_ directory is for third-party libs.
 As a general rule make it a point not to modify files in vendor directory.
+
