@@ -15,7 +15,6 @@ Responsive, fast in production, made for humans, and doesn't cause insomnia.
     # Scaffold a project using Fuark
     middleman init [project_name] --template=fuark
 
-
 ## The Rules
 
 1. You do not talk about FUARK.
