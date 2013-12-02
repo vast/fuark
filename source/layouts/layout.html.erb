@@ -8,7 +8,9 @@
     <%= favicon_tag "favicon.ico" %>
   </head>
   <body class="<%= page_classes %>">
-    <%= yield %>
+    <article class="page">
+      <%= yield %>
+    </div>
 
     <%= javascript_include_tag  "application" %>
   </body>
