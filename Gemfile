@@ -1,4 +1,5 @@
 source 'http://rubygems.org'
+source 'https://rails-assets.org'
 
 gem "middleman", "~>3.2.0"
 
