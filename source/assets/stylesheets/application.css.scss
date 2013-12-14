@@ -1,5 +1,5 @@
 // This is a manifest file that'll be compiled into including all the files listed below.
-@import 'vendor/normalize';
+//= require normalize-css
 
 @import 'modules/all';
 @import 'partials/all';
