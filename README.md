@@ -3,7 +3,7 @@
 This is not special [Middleman](http://middlemanapp.com/) template.
 It's not beautiful or unique snowflake.
 It's the same decaying digital matter as everything else
-but with CoffeeScript, SCSS, Autoprefixer, and reasonable project structure.
+but with CoffeeScript, Stylus, Autoprefixer, and reasonable project structure.
 
 Responsive, fast in production, made for humans, and doesn't cause insomnia.
 
@@ -36,7 +36,7 @@ Responsive, fast in production, made for humans, and doesn't cause insomnia.
 
 ## Modules, partials, and vendor
 
-The _modules_ directory is reserved for SCSS code that doesn't cause SASS to actually output CSS.
+The _modules_ directory is reserved for Stylus code that doesn't actually output CSS.
 Things like mixin declarations, functions, and variables.
 
 The _partials_ directory is where the meat of CSS is constructed. Break stylesheets
