@@ -1,0 +1,14 @@
+// Micro clearfix mixin, see http://nicolasgallagher.com/micro-clearfix-hack/
+//
+// .container
+//    @extend $clearfix
+
+$clearfix
+  zoom: 1
+
+  &:before, &:after
+    content: ''
+    display: table
+
+  &:after
+    clear: both
