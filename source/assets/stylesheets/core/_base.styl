@@ -1,0 +1,39 @@
+// core/_base sets any base-level styles for tags, such as `p` or `blockquote`,
+// beyond what's included in the reset or normalize.
+// Text styles set here reflect the most common appearance of that tag in the design.
+
+body
+  color: $text-color
+  background: $bg-color
+  font: 18px/1.5 $serif
+  -webkit-text-size-adjust: none
+
+@media (max-width: 780px)
+  body
+    font-size: 16px
+
+@media (max-width: 480px)
+  body
+    font-size: 14px
+
+a
+  &:link
+    color: $link-color
+
+  &:visited
+    color: $link-visited-color
+
+  &:active, &:hover
+    color: $link-active-color
+
+p, pre
+  padding: 0
+  margin: 0 0 1.5em
+
+pre, code
+  color: $code-color
+  font-family: $monospaced
+  font-size: 88.8%
+
+pre code
+  font-size: 1em

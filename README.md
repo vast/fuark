@@ -3,7 +3,7 @@
 This is not special [Middleman](http://middlemanapp.com/) template.
 It's not beautiful or unique snowflake.
 It's the same decaying digital matter as everything else
-but with CoffeeScript, Stylus, Autoprefixer, and reasonable project structure.
+but with CoffeeScript, Stylus, Autoprefixer, and reasonable project structure, [MVCSS][mvcss].
 
 Responsive, fast in production, made for humans, and doesn't cause insomnia.
 
@@ -19,11 +19,10 @@ Responsive, fast in production, made for humans, and doesn't cause insomnia.
 
 1. You do not talk about FUARK.
 2. You DO NOT talk about FUARK.
-3. Use dashes when naming mixins, extends, classes or IDs.
-4. Use descriptive names and write them in full-words.
-5. Use space between property and value: `width: 20px`.
-6. Leave a blank line between rule sets.
-7. Sort CSS properties into a logical, consistent order:
+3. Use descriptive names and write them in full-words.
+4. Use space between property and value: `width: 20px`.
+5. Leave a blank line between rule sets.
+6. Sort CSS properties into a logical, consistent order:
     1. Positioning (`position`, `z-index`, `top`, `left`, ...)
     2. Block (`display`, `float`, `box-sizing`, `clear`, `overflow`, `visibility`, ...)
     3. Dimensions (`margin`, `padding`, `width`, `height`)
@@ -34,14 +33,30 @@ Responsive, fast in production, made for humans, and doesn't cause insomnia.
     8. Other (`page-break-*`, `break-*`, `zoom`, `direction`, ...)
 
 
-## Modules, partials, and vendor
+## Core, modules, and vendor
 
-The _modules_ directory is reserved for Stylus code that doesn't actually output CSS.
-Things like mixin declarations, functions, and variables.
+Fuark uses [MVCSS][mvcss] approach for creating predictable and maintainable CSS.
 
-The _partials_ directory is where the meat of CSS is constructed. Break stylesheets
-as you like: header/footer/... or typography/buttons/forms/...
+The _core_ directory includes six components:
 
-The _vendor_ directory is for third-party libs.
+1. Reset (normalize.css)
+2. Settings (@font-face, fonts, colors, global variables)
+3. Helpers (extends, functions, mixins)
+4. Base (base-level tags)
+5. Content (base-level typography - colors, fonts)
+6. Layout (base-level layout - margin, padding, sizing)
+
+The _modules_ directory is reserved for any unit of style that can be found across multiple pages:
+
+* modals
+* buttons
+* navigation
+* sidebar
+* footer
+
+The _vendor_ directory is reserved for third-party libs.
 As a general rule make it a point not to modify files in vendor directory.
 
+
+
+[mvcss]: http://mvcss.github.io/
