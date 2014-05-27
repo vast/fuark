@@ -13,6 +13,7 @@ gem 'stylus'
 gem 'coffee-script'
 gem 'sass' # required for rails-assets
 gem 'rails-assets-normalize-css', require: false
+gem 'rails-mqpacker', github: 'vast/rails-mqpacker'
 
 # build
 gem 'uglifier'

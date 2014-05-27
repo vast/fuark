@@ -1,3 +1,10 @@
+GIT
+  remote: git://github.com/vast/rails-mqpacker.git
+  revision: 0440067547856bd1cb7c2c2a8ca07bb7ce17be8c
+  specs:
+    rails-mqpacker (0.0.1)
+      execjs
+
 GEM
   remote: http://rubygems.org/
   remote: https://rails-assets.org/
@@ -111,6 +118,7 @@ DEPENDENCIES
   middleman-livereload
   middleman-sprockets
   rails-assets-normalize-css
+  rails-mqpacker!
   sass
   stylus
   uglifier
