@@ -8,15 +8,11 @@
     <%= stylesheet_link_tag "application", media: 'screen, projection' %>
     <%= stylesheet_link_tag "print", media: 'print' %>
     <%= favicon_tag "favicon.ico" %>
-    <!--[if lt IE 9]>
-      <%= javascript_include_tag "http://html5shim.googlecode.com/svn/trunk/html5.js" %>
-    <![endif]-->
   </head>
   <body class="<%= page_classes %>">
-    <article class="page">
+    <main class="page">
       <%= yield %>
-    </article>
-
+    </main>
     <%= javascript_include_tag  "application" %>
   </body>
 </html>
