@@ -30,7 +30,7 @@ GEM
     erubis (2.7.0)
     eventmachine (1.0.7)
     execjs (2.5.2)
-    ffi (1.9.8)
+    ffi (1.13.1)
     hike (1.2.3)
     hitimes (1.2.2)
     hooks (0.4.0)
