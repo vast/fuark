@@ -1,5 +1,5 @@
 GIT
-  remote: git://github.com/vast/rails-mqpacker.git
+  remote: https://github.com/vast/rails-mqpacker.git
   revision: 7ce9d991295960a2103650ad59db144a9b87e61f
   specs:
     rails-mqpacker (0.0.1)
@@ -106,7 +106,7 @@ GEM
     tilt (1.4.1)
     timers (4.0.1)
       hitimes
-    tzinfo (1.2.7)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uber (0.0.13)
     uglifier (2.7.1)
